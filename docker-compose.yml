@@ -1,0 +1,1 @@
+version: '3'\nservices:\n  app:\n    build: .\n    ports:\n      - "8000:8000"\n    depends_on:\n      - db\n  db:\n    image: postgres\n    environment:\n      - POSTGRES_USER=postgres\n      - POSTGRES_PASSWORD=postgres\n      - POSTGRES_DB=resume_builder\n    volumes:\n      - db-data:/var/lib/postgresql/data\n\nvolumes:\n  db-data:
