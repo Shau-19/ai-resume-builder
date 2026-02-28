@@ -1,1 +1,1 @@
-# ai-resume-builder
+To setup the project, run the following commands:\n\n1. pip install -r requirements.txt\n2. pip install -r requirements-prod.txt\n3. npm install\n4. npm start\n\nTo run the tests, use the following command:\n\npytest tests\n\nTo run the application, use the following command:\n\npython main.py\n\nExamples:\n\n1. Chat API: http://localhost:8000/chat\n2. Resume API: http://localhost:8000/resume
